@@ -13,7 +13,7 @@
 **/QT/**
 **.spec
 **.idea**
-**.ink
+**.Ink
 
 _pycache__/
 *.py[cod]
