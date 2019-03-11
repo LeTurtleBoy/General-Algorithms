@@ -14,7 +14,6 @@
 **.spec
 **.idea**
 **.Ink
-
 _pycache__/
 *.py[cod]
 *$py.class
