@@ -13,11 +13,11 @@ NuevoAforodf = pd.DataFrame(m,columns=['Medida [cm]']);
 
 NuevoAforo = []
 for elemento in range(len(G)-1):
-	Ma = G[elemento+1]
-	Me = G[elemento]	
-	for u in range(0,10):
-		delta = (((Ma - Me)/10)*u)
-		NuevoAforo.append(Me+delta)
+    Ma = G[elemento+1]
+    Me = G[elemento]    
+    for u in range(0,10):
+        delta = (((Ma - Me)/10)*u)
+        NuevoAforo.append(Me+delta)
 NuevoAforo.append(Ma)
 
 NuevoAforodf['Galones'] = NuevoAforo
